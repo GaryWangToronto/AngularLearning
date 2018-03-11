@@ -1,0 +1,32 @@
+<div class="stock">
+
+  <p>
+    This is stock information stock
+  </p>
+
+  <p>
+    stock Id is {{stock.id}}
+
+  </p>
+
+  <p>
+
+    stock name is {{stock.name}}
+
+  </p>
+
+  <p>
+    isPro is {{isPro}}
+  </p>
+  <p>
+
+    <input type="button" (click)="focus = true" value="focus!!">
+
+  </p>
+
+
+  <a [routerLink]="['./']"> buy list</a>
+  <a [routerLink]="['./seller',100]"> sell list</a>
+  <router-outlet></router-outlet>
+
+</div>

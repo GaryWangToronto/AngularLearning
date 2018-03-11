@@ -1,0 +1,17 @@
+<div>
+
+  I am father component
+
+</div>
+
+
+<div>
+
+  <input placeholder="please input keyword" [(ngModel)]="search">
+
+</div>
+
+
+<app-stock-search [keyWord]="search" (addCart)="addCartHandler($event)"></app-stock-search>
+
+<app-stock-cart [stockInfo]="stockInfo"></app-stock-cart>

@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<a [routerLink]="['/home']"> main page</a>
+<a [routerLink]="['/stock',1]">stock information</a>
+
+
+<input type="button" value="stock information" (click)="toStockDetail()">
+
+<a [routerLink]="[{outlets: {aux: 'consult'}}]"> start consult</a>
+<a [routerLink]="[{outlets: {aux: null}}]">end consult</a>
+
+
+<router-outlet></router-outlet>
+<router-outlet name="aux"></router-outlet>
+

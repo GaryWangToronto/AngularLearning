@@ -1,0 +1,15 @@
+<div class="parent">
+
+  <h2> I am father component </h2>
+  <div>
+    welcome : <input type="text" [(ngModel)]="greeting">
+  </div>
+
+  <div>
+    name : <input type="text" [(ngModel)]="user.name">
+
+  </div>
+</div>
+
+
+<app-child [stockName]="greeting" [stock]="user"></app-child>

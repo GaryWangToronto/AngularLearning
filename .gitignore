@@ -1,0 +1,10 @@
+syntax: glob
+
+.project
+.idea/
+.settings/
+.tmp/
+node_modules/
+target/
+dist/
+
