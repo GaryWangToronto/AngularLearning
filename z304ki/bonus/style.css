@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background: linear-gradient(to bottom, #3a2cac, #631d9f);
+    height: 280px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #f90;
+}
+
+header nav .user {
+    float: right;
+}
+
+header nav li {
+    display: inline-block;
+    padding-right: 40px;
+
+}
+
+header .headerMain {
+    width: 730px;
+    color: #f0f0f0;
+    margin: 50px auto;
+}
+
+header .headerMain .introduction {
+    float: right;
+}
+
+header .headerMain h1 {
+    line-height: 70px;
+}
+
+.banner {
+    width: 690px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: -105px;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+}
+
+.banner ul li {
+    font-size: 14px;
+    display: inline-block;
+    height: 160px;
+    width: 180px;
+    text-align: center;
+}
+
+.banner ul {
+    text-align: center;
+    font-size: 0;
+}
+
+.banner ul li .feature {
+    margin: 20px auto;
+    background: #f90;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.main {
+    margin: 100px auto;
+    width: 800px;
+
+}
+
+.main .block {
+    margin-bottom: 100px;
+    /*margin-left: -20px  */
+
+}
+
+.main .block .blockText {
+    float: left;
+    width:260px;
+    line-height: 50px;
+    color:#999;
+    font-size:24px;
+}
+
+.main .block .blockText h2{
+    font-size:36px;
+    margin-bottom: 50px;
+}
+
+
+.main .block img{
+    float: left;
+    width: 440px;
+    height:235px;
+
+}
+
+.main .block::after{
+    content: '';
+    clear:both;
+    display: block;
+
+}
+
+footer{
+    font-size:12px;
+    color: #999;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+
+}
+
+header nav{
+    max-width: 1000px;
+    margin: 0 auto;
+
+
+}
